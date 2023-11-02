@@ -1,0 +1,631 @@
+{
+  "users": [
+    {
+      "username": "dhivyapcdatanthiyur",
+      "emailid": "dhivya.chinnasamy@hcl.com",
+      "password": "Erode1111$",
+      "id": 1
+    },
+    {
+      "username": "Dhivya",
+      "emailid": "dhivya.chinnasamy@hcl.com",
+      "password": "Anthiyur501$",
+      "id": 2
+    },
+    {
+      "username": "Saranya",
+      "emailid": "saranya.vedhanth@hcl.com",
+      "password": "Teju1111$",
+      "id": 3
+    },
+    {
+      "username": "Saran",
+      "emailid": "saranya.vedhanth@hcl.com",
+      "password": "Saranya501$",
+      "id": 5
+    },
+    {
+      "username": "Avanthikha",
+      "emailid": "avanthikhasenthilkumar@gmail.com",
+      "password": "Avanthikha501$",
+      "id": 6
+    },
+    {
+      "username": "Priya",
+      "emailid": "Priya@gmail.com",
+      "password": "Priya1111$",
+      "id": 7
+    },
+    {
+      "username": "Kavin",
+      "emailid": "Kavin@gmail.com",
+      "password": "Kavin1111$",
+      "id": 8
+    }
+  ],
+  "meals": [
+    {
+      "mealId": 1,
+      "category": "Veg",
+      "mealName": "Dosa",
+      "mealDescription": "Dosa with Coconut Chutney",
+      "mealImage": "/images/1.jfif",
+      "quantity": 7,
+      "price": 25,
+      "id": 1
+    },
+    {
+      "mealId": 2,
+      "category": "Veg",
+      "mealName": "Idli",
+      "mealDescription": "Idli with Shaambar",
+      "mealImage": "/images/2.jfif",
+      "quantity": 10,
+      "price": 15,
+      "id": 2
+    },
+    {
+      "mealId": 3,
+      "category": "Non-Veg",
+      "mealName": "Biryani",
+      "mealDescription": "Egg biryani",
+      "mealImage": "/images/3.jfif",
+      "quantity": 5,
+      "price": 250,
+      "id": 3
+    },
+    {
+      "id": 376,
+      "category": "Veg",
+      "mealName": "Poori",
+      "mealDescription": "Poori with Kurma",
+      "mealImage": "/images/4.jfif",
+      "quantity": 17,
+      "price": 40
+    },
+    {
+      "id": 782,
+      "category": "Veg",
+      "mealName": "Pulao",
+      "mealDescription": "Vegetable Pulao",
+      "mealImage": "/images/5.jfif",
+      "quantity": 6,
+      "price": 120
+    },
+    {
+      "id": 102,
+      "category": "Veg",
+      "mealName": "Halwa",
+      "mealDescription": "carrot halwa",
+      "mealImage": "/images/6.jfif",
+      "quantity": 7,
+      "price": 50
+    },
+    {
+      "id": 388,
+      "category": "Veg",
+      "mealName": "Naan",
+      "mealDescription": "Naan with Panner butter masala",
+      "mealImage": "/images/7.jfif",
+      "quantity": 2,
+      "price": 130
+    },
+    {
+      "id": 343,
+      "category": "Veg",
+      "mealName": "Noodles",
+      "mealDescription": " Veg Noodles",
+      "mealImage": "/images/8.jfif",
+      "quantity": 6,
+      "price": 100
+    },
+    {
+      "id": 453,
+      "category": "Non-Veg",
+      "mealName": "Chicken 65",
+      "mealDescription": "Chicken 65",
+      "mealImage": "/images/9.jfif",
+      "quantity": 7,
+      "price": 160
+    },
+    {
+      "id": 737,
+      "category": "Veg",
+      "mealName": "Chapatti",
+      "mealDescription": "Chapatti with Kurma",
+      "mealImage": "/images/10.jfif",
+      "quantity": 5,
+      "price": 100
+    },
+    {
+      "id": 323,
+      "category": "Veg",
+      "mealName": "curd rice",
+      "mealDescription": "Curd rice",
+      "mealImage": "/images/11.jfif",
+      "quantity": 11,
+      "price": 50
+    },
+    {
+      "id": 722,
+      "category": "Veg",
+      "mealName": "Pongal",
+      "mealDescription": "Sweet Pongal",
+      "mealImage": "/images/12.jfif",
+      "quantity": 12,
+      "price": 60
+    },
+    {
+      "id": 853,
+      "category": "Veg",
+      "mealName": "Lemon rice",
+      "mealDescription": "Lemon rice",
+      "mealImage": "/images/13.jfif",
+      "quantity": 14,
+      "price": 50
+    },
+    {
+      "id": 807,
+      "category": "Veg",
+      "mealName": "kulob jamun",
+      "mealDescription": "Kulob jamun",
+      "mealImage": "/images/14.jfif",
+      "quantity": 11,
+      "price": 30
+    },
+    {
+      "id": 354,
+      "category": "Veg",
+      "mealName": "Pasta",
+      "mealDescription": "Pasta ",
+      "mealImage": "/images/15.jfif",
+      "quantity": 15,
+      "price": 80
+    },
+    {
+      "id": 144,
+      "category": "Veg",
+      "mealName": "Sandwich",
+      "mealDescription": "vegetable sandwich",
+      "mealImage": "/images/16.jfif",
+      "quantity": 17,
+      "price": 30
+    },
+    {
+      "id": 867,
+      "category": "Veg",
+      "mealName": "fried rice",
+      "mealDescription": "Fried rice",
+      "mealImage": "/images/17.jfif",
+      "quantity": 16,
+      "price": 90
+    },
+    {
+      "id": 402,
+      "category": "Non-Veg",
+      "mealName": "chicken",
+      "mealDescription": "Chicken leg piece",
+      "mealImage": "/images/18.jfif",
+      "quantity": 12,
+      "price": 120
+    },
+    {
+      "id": 859,
+      "category": "Veg",
+      "mealName": "Milkshake",
+      "mealDescription": "Strawberry Milkshake",
+      "mealImage": "/images/19.jfif",
+      "quantity": 15,
+      "price": 30
+    },
+    {
+      "id": 42,
+      "category": "Veg",
+      "mealName": "tomato rice",
+      "mealDescription": "tomato rice",
+      "mealImage": "/images/20.jfif",
+      "quantity": 13,
+      "price": 50
+    },
+    {
+      "id": 621,
+      "category": "Veg",
+      "mealName": "Beetroot halwa",
+      "mealDescription": "Beetroot halwa",
+      "mealImage": "/images/21.jfif",
+      "quantity": 19,
+      "price": 30
+    }
+  ],
+  "details": [
+    {
+      "mealId": 1,
+      "ratings": 4,
+      "picked": "Full Meals",
+      "id": 1
+    },
+    {
+      "mealId": 2,
+      "ratings": 4,
+      "picked": "Full Meals",
+      "id": 2
+    },
+    {
+      "mealId": 3,
+      "ratings": 3,
+      "picked": "Full Meals",
+      "id": 3
+    },
+    {
+      "mealId": 376,
+      "ratings": 5,
+      "picked": "Full Meals",
+      "id": 4
+    },
+    {
+      "mealId": 782,
+      "ratings": 3,
+      "picked": "Full Meals",
+      "id": 5
+    },
+    {
+      "mealId": 102,
+      "ratings": 3.5,
+      "picked": "Full Meals",
+      "id": 6
+    },
+    {
+      "mealId": 388,
+      "ratings": 4,
+      "picked": "Full Meals",
+      "id": 7
+    },
+    {
+      "mealId": 343,
+      "ratings": 3,
+      "picked": "Half Meals",
+      "id": 8
+    },
+    {
+      "mealId": 453,
+      "ratings": 5,
+      "picked": "Full Meals",
+      "id": 9
+    },
+    {
+      "mealId": 737,
+      "ratings": 3,
+      "picked": "Full Meals",
+      "id": 11
+    },
+    {
+      "mealId": 323,
+      "ratings": 5,
+      "picked": "Full Meals",
+      "id": 12
+    },
+    {
+      "mealId": 722,
+      "ratings": 5,
+      "picked": "Full Meals",
+      "id": 14
+    },
+    {
+      "mealId": 853,
+      "ratings": 2,
+      "picked": "Full Meals",
+      "id": 15
+    },
+    {
+      "mealId": 807,
+      "ratings": 4,
+      "picked": "Full Meals",
+      "id": 16
+    },
+    {
+      "mealId": 354,
+      "ratings": 5,
+      "picked": "Full Meals",
+      "id": 17
+    },
+    {
+      "mealId": 144,
+      "ratings": 3,
+      "picked": "Full Meals",
+      "id": 18
+    },
+    {
+      "mealId": 350,
+      "ratings": 4,
+      "picked": "Full Meals",
+      "id": 19
+    },
+    {
+      "mealId": 867,
+      "ratings": 4,
+      "picked": "Full Meals",
+      "id": 20
+    },
+    {
+      "mealId": 402,
+      "ratings": 5,
+      "picked": "Full Meals",
+      "id": 21
+    },
+    {
+      "mealId": 859,
+      "ratings": 5,
+      "picked": "Full Meals",
+      "id": 22
+    },
+    {
+      "mealId": 42,
+      "ratings": 4,
+      "picked": "Full Meals",
+      "id": 23
+    },
+    {
+      "mealId": 621,
+      "ratings": 4,
+      "picked": "Full Meals",
+      "id": 24
+    }
+  ],
+  "orders": [
+    {
+      "orderId": 1140,
+      "orderDate": "2021-5-21",
+      "user": "Saran",
+      "cartList": [
+        {
+          "mealId": 1573,
+          "category": "Veg",
+          "mealName": "Dosa",
+          "mealDescription": "Dosa with Coconut Chutney",
+          "mealImage": "/images/1.jfif",
+          "quantity": 1,
+          "price": 25,
+          "id": 1
+        },
+        {
+          "mealId": 5313,
+          "category": "Veg",
+          "mealName": "Idli",
+          "mealDescription": "Idli with Shaambar",
+          "mealImage": "/images/2.jfif",
+          "quantity": 2,
+          "price": 15,
+          "id": 2
+        }
+      ],
+      "status": "Order Placed",
+      "totalAmount": 55,
+      "id": 1
+    },
+    {
+      "orderId": 1794,
+      "orderDate": "2021-5-21",
+      "user": "Avanthikha",
+      "cartList": [
+        {
+          "id": 859,
+          "category": "Veg",
+          "mealName": "Milkshake",
+          "mealDescription": "Strawberry Milkshake",
+          "mealImage": "/images/19.jfif",
+          "quantity": 1,
+          "price": 30,
+          "mealId": 5986
+        },
+        {
+          "id": 354,
+          "category": "Veg",
+          "mealName": "Pasta",
+          "mealDescription": "Pasta ",
+          "mealImage": "/images/15.jfif",
+          "quantity": 1,
+          "price": 80,
+          "mealId": 7535
+        },
+        {
+          "id": 737,
+          "category": "Veg",
+          "mealName": "Chapatti",
+          "mealDescription": "Chapatti with Kurma",
+          "mealImage": "/images/10.jfif",
+          "quantity": 1,
+          "price": 100,
+          "mealId": 1256
+        },
+        {
+          "id": 722,
+          "category": "Veg",
+          "mealName": "Pongal",
+          "mealDescription": "Sweet Pongal",
+          "mealImage": "/images/12.jfif",
+          "quantity": 1,
+          "price": 60,
+          "mealId": 5775
+        },
+        {
+          "id": 323,
+          "category": "Veg",
+          "mealName": "curd rice",
+          "mealDescription": "Curd rice",
+          "mealImage": "/images/11.jfif",
+          "quantity": 1,
+          "price": 50,
+          "mealId": 5453
+        },
+        {
+          "id": 807,
+          "category": "Veg",
+          "mealName": "kulob jamun",
+          "mealDescription": "Kulob jamun",
+          "mealImage": "/images/14.jfif",
+          "quantity": 1,
+          "price": 30,
+          "mealId": 5977
+        },
+        {
+          "id": 867,
+          "category": "Veg",
+          "mealName": "fried rice",
+          "mealDescription": "Fried rice",
+          "mealImage": "/images/17.jfif",
+          "quantity": 1,
+          "price": 90,
+          "mealId": 4210
+        }
+      ],
+      "status": "Order Placed",
+      "totalAmount": 440,
+      "id": 2
+    },
+    {
+      "orderId": 4120,
+      "orderDate": "2021-5-21",
+      "user": "Kavin",
+      "cartList": [
+        {
+          "mealId": 6113,
+          "category": "Veg",
+          "mealName": "Idli",
+          "mealDescription": "Idli with Shaambar",
+          "mealImage": "/images/2.jfif",
+          "quantity": 1,
+          "price": 15,
+          "id": 2
+        },
+        {
+          "mealId": 591,
+          "category": "Veg",
+          "mealName": "Dosa",
+          "mealDescription": "Dosa with Coconut Chutney",
+          "mealImage": "/images/1.jfif",
+          "quantity": 1,
+          "price": 25,
+          "id": 1
+        }
+      ],
+      "status": "Delivered",
+      "totalAmount": 40,
+      "id": 3
+    },
+    {
+      "orderId": 1030,
+      "orderDate": "2021-5-21",
+      "user": "Kavin",
+      "cartList": [
+        {
+          "mealId": 7923,
+          "category": "Non-Veg",
+          "mealName": "Biryani",
+          "mealDescription": "Egg biryani",
+          "mealImage": "/images/3.jfif",
+          "quantity": 2,
+          "price": 250,
+          "id": 3
+        },
+        {
+          "mealId": 4187,
+          "category": "Veg",
+          "mealName": "Idli",
+          "mealDescription": "Idli with Shaambar",
+          "mealImage": "/images/2.jfif",
+          "quantity": 1,
+          "price": 15,
+          "id": 2
+        }
+      ],
+      "status": "Delivered",
+      "totalAmount": 515,
+      "id": 4
+    },
+    {
+      "orderId": 960,
+      "orderDate": "2023-11-1",
+      "user": "",
+      "cartList": [
+        {
+          "mealId": 2164,
+          "category": "Veg",
+          "mealName": "Dosa",
+          "mealDescription": "Dosa with Coconut Chutney",
+          "mealImage": "/images/1.jfif",
+          "quantity": 1,
+          "price": 25,
+          "id": 1
+        }
+      ],
+      "status": "Order Placed",
+      "totalAmount": 25,
+      "id": 5
+    },
+    {
+      "orderId": 150,
+      "orderDate": "2023-11-1",
+      "user": "Dhivya",
+      "cartList": [
+        {
+          "mealId": 5303,
+          "category": "Veg",
+          "mealName": "Idli",
+          "mealDescription": "Idli with Shaambar",
+          "mealImage": "/images/2.jfif",
+          "quantity": 1,
+          "price": 15,
+          "id": 2,
+          "details": [
+            {
+              "mealId": 2,
+              "ratings": 4,
+              "picked": "Full Meals",
+              "id": 2
+            }
+          ]
+        }
+      ],
+      "status": "Order Placed",
+      "totalAmount": 15,
+      "id": 6
+    },
+    {
+      "orderId": 3109,
+      "orderDate": "2023-11-2",
+      "user": "Dhivya",
+      "cartList": [
+        {
+          "mealId": 2527,
+          "category": "Veg",
+          "mealName": "Dosa",
+          "mealDescription": "Dosa with Coconut Chutney",
+          "mealImage": "/images/1.jfif",
+          "quantity": 1,
+          "price": 25,
+          "id": 1
+        }
+      ],
+      "status": "Order Placed",
+      "totalAmount": 25,
+      "id": 7
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
