@@ -9,13 +9,9 @@ import './spinner.css'
  * @returns 
  */
 const Spinner = () => {
-    const [domReady, setDomReady] = React.useState(false)
-
-    React.useEffect(() => {
-      setDomReady(true)
-    }, [])
-    return ( domReady?
+   
+    return ( 
         ReactDom.createPortal( <div id ='loader' data-testid='spinner'> </div>,
-            document.getElementById('spinner')):null)
+            document.getElementById('spinner')))
 }
 export default Spinner;

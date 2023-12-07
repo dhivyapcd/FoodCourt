@@ -13,10 +13,11 @@ describe(("Wish Component"), () => {
         let mockStore;
 
         beforeEach(() => {
-            const mockHistory = { push: jest.fn(), location: {}, listen: jest.fn(), createHref: jest.fn() }
+           // const mockHistory = { push: jest.fn(), location: {}, listen: jest.fn(), createHref: jest.fn() }
 
             // mock store
-            mockStore = createStore(rootReducer, { cart: {}, auth: { user: '' } })
+            mockStore = createStore(rootReducer, { wish: { wishList: [], loading: false }, auth: { user: '' } })
+          
             mockStore.dispatch = jest.fn()
 
             useStore.mockReturnValue({
@@ -24,9 +25,9 @@ describe(("Wish Component"), () => {
                 dispatch: jest.fn()
             })
             wrapper = mount(<Provider store={mockStore}>
-                <Router history={mockHistory}>
+               {/* <Router history={mockHistory}> */}
                     <Wish />
-                </Router>
+              {/* //  </Router> */}
             </Provider>)
         })
         it(('render component without crashing'), () => {

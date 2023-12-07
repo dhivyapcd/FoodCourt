@@ -1,5 +1,5 @@
-import { render,screen, } from "@testing-library/react"
-import Rating from '../rating'
+import { render,screen} from "@testing-library/react"
+import Rating from './rating'
 describe(("Rating Component"), () => {
     test(("When Rating Component with values"), () => {
         const {container,asFragment,rerender,debug}=render(<Rating rating={2}/> )

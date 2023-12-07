@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rating Component When Rating Component with values 1`] = `
+<DocumentFragment>
+  <span
+    class="rated-star"
+    data-testid="star"
+  >
+    ★
+  </span>
+  <span
+    class="rated-star"
+    data-testid="star"
+  >
+    ★
+  </span>
+  <span
+    class="default-star"
+    data-testid="star"
+  >
+    ★
+  </span>
+  <span
+    class="default-star"
+    data-testid="star"
+  >
+    ★
+  </span>
+  <span
+    class="default-star"
+    data-testid="star"
+  >
+    ★
+  </span>
+</DocumentFragment>
+`;
