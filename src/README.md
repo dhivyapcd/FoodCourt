@@ -554,3 +554,6 @@ https://wanago.io/2018/09/03/javascript-testing-tutorial-part-two-introducing-en
 npm i enzyme @wojtekmaj/enzyme-adapter-react-17
 
 https://redux.js.org/tutorials/fundamentals/part-4-store#middleware
+
+
+npm run test -- --coverage .
